@@ -10,6 +10,9 @@ server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 
+
+// To handle the 'EADDRINUSE' error
+
 //var http = require('http')
 //var server = http.createServer(function(req, res) {
     //res.end('test');
